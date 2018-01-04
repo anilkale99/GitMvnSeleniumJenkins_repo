@@ -9,7 +9,7 @@ public class SeleniumTestScript {
 	
 	@Test
 	public void testMethod1(){
-		System.out.println("Welcome to continuous integration");
+		System.out.println("Updated : Welcome to continuous integration");
 	}
 	
 	
