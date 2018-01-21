@@ -10,12 +10,13 @@ public class SeleniumTestScript {
 	
 	@Test
 	public void testMethod1(){
-		System.out.println("Test : Welcome to continuous integration");
+		System.out.println("Test B13 : Welcome to continuous integration");
 	}
 	
 	
 	@Test
 	public void method1(){
+		System.out.println("for batch13");
 		System.setProperty("webdriver.chrome.driver","D:\\Training\\TrainingContent\\SeleniumJars_Software\\chromedriver.exe");
 		
 		WebDriver driver = new ChromeDriver();
